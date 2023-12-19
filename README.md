@@ -1,11 +1,11 @@
-# h37-fakestream-rudderstack
-Generating synthetic data using the Fakestream package for Rudderstack.
+# h37-RudderStream
+Generating synthetic data using the original Fakestream package for Rudderstack.
 
-## Human37 Fakestream-rudderstack Package
+## Human37 RudderStream Package
 Authors -- Glenn Vanderlinden @Human37
 
 ## Purpose & Architecture
-The Fakestream package is developed in order to generate synthetic data using Faker and send it to Rudderstack, which in turn can dispatch it to final destinations. We have chosen to send it to Rudderstack as Rudderstack can act as a event pipeline from which data can then be distributed towards a number of tools for testing, training and demo applications. One SDK to rule them all if you will.
+The RudderStream package is developed in order to generate synthetic data using Faker and send it to Rudderstack, which in turn can dispatch it to final destinations. We have chosen to send it to Rudderstack as Rudderstack can act as a event pipeline from which data can then be distributed towards a number of tools for testing, training and demo applications. One SDK to rule them all if you will.
 
 Out of the box the script will generate event for the following customer journey. To modify see the section on event creation.
 
@@ -93,5 +93,5 @@ In your IDE hit run.
 In terminal - navigate to the root folder and run:
 
 ```sh
-node FakeStream-rudderstack.js
+node RudderStream.js
 ```
