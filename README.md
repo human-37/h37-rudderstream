@@ -1,4 +1,7 @@
 # h37-RudderStream
+
+<img src="https://i.ibb.co/vvcR2cvb/Screenshot-2025-07-28-at-18-05-57.png" alt="Rudderstream logo" width="400">
+
 Generating synthetic data using the original Fakestream package for Rudderstack.
 
 ## Human37 RudderStream Package
